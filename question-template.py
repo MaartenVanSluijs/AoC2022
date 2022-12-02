@@ -9,6 +9,7 @@ class Elf:
       else:
         self.data.append(string)
         string = ""
+    self.data.append(string)
 
   def solve1(self):
     return
