@@ -14,7 +14,6 @@ class Elf:
   def solve1(self):
     data = self.data[0]
     for index in range(len(data)-3):
-      # # print(data[index:index + 4])
       if len(set(data[index:index+4])) == len(data[index:index+4]):
         print(set(data[index:index+4]))
         return index+4        
